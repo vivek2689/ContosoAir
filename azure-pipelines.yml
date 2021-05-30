@@ -5,9 +5,9 @@
 
 pool:
   name: newagentpool12
+  VmImage: 'newagent2612'
   demands: 
   - npm 
-  - Agent.Name -equals 'newagent2612'
   
 trigger:
   - master
