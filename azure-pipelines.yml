@@ -4,6 +4,7 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
 
 pool:
+  name: newagentpool12
   vmImage: 'newagent2612'
 trigger:
   - master
