@@ -6,7 +6,7 @@
 pool:
   name: newagentpool12
   VmImage: 'newagent2612'
-  demands: 
+  demands:
   - npm 
   
 trigger:
