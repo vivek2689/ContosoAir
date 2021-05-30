@@ -23,6 +23,7 @@ steps:
     displayName: 'npm custom'
     inputs:
       command: custom
+      workingDir: 'C:\Program Files\nodejs\node_modules\npm'
       verbose: false
       customCommand: 'install --production'
   - task: ArchiveFiles@2
