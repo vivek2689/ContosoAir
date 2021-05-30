@@ -19,6 +19,9 @@ steps:
       SourceFolder: deployment
       Contents: '*.json'
       TargetFolder: '$(build.artifactstagingdirectory)/Templates'
+  - task: npmAuthenticate@0
+    inputs:
+      workingFile: 'C:\Program Files\nodejs\node_modules\npm\npmrc'
   - task: Npm@1
     displayName: 'npm custom'
     inputs:
