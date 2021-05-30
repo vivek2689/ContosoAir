@@ -8,7 +8,11 @@ pool:
   vmImage: 'newagent2612'
 trigger:
   - master
+
 steps:
+  - task: Npm@1
+    inputs:
+      command: 'install'
   - task: CopyFiles@2
     displayName: 'Copy Files to: $(build.artifactstagingdirectory)/Templates'
     inputs:
