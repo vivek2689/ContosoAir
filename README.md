@@ -1,3 +1,5 @@
+[![Build Status](https://dev.azure.com/az400micorosft26/GitPractice/_apis/build/status/vivek2689.ContosoAir?branchName=master)](https://dev.azure.com/az400micorosft26/GitPractice/_build/latest?definitionId=28&branchName=master)
+
 # This project is retired, archived, and no longer supported. You are welcome to continue to use and fork the repository.
 
 
